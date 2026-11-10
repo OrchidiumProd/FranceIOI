@@ -1,0 +1,26 @@
+/*
+ Votre programme doit diriger votre robot dans la grille suivante :
+#######
+#   X #
+# # #X#
+# X C #
+#E#####
+
+Le robot se trouve initialement à l'entrée du fourré et doit atteindre la case où se trouve la clé sans passer par les cases où se trouvent des buissons infranchissables ni celles qui contiennent un piège . Vous n'avez pas besoin de programmer le chemin retour.
+*/
+
+#include <iostream>
+#include <robot.h>
+using namespace std;
+
+int main()
+{
+    haut();
+    haut();
+    haut();
+    droite();
+    droite();
+    bas();
+    bas();
+    droite();
+}
